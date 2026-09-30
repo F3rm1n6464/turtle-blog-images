@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <defs>
+    <!-- Cielo nocturno -->
+    <linearGradient id="nightSkyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1428"/>
+      <stop offset="50%" stop-color="#142a4a"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
+    </linearGradient>
+
+    <!-- Césped nocturno -->
+    <linearGradient id="nightGrassGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a5a20"/>
+      <stop offset="100%" stop-color="#14300e"/>
+    </linearGradient>
+
+    <!-- Luna llena -->
+    <radialGradient id="moonGradient" cx="45%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#f0f0e0"/>
+      <stop offset="100%" stop-color="#c8c8b0"/>
+    </radialGradient>
+
+    <!-- Halo de la luna -->
+    <radialGradient id="moonHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8d0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#fff8d0" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Centro del girasol (nocturno) -->
+    <radialGradient id="sunflowerCenterNight" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#3a2410"/>
+      <stop offset="70%" stop-color="#241408"/>
+      <stop offset="100%" stop-color="#140a04"/>
+    </radialGradient>
+
+    <!-- Pétalos del girasol (nocturno) -->
+    <linearGradient id="petalGradientNight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a88a30"/>
+      <stop offset="100%" stop-color="#6a5418"/>
+    </linearGradient>
+  </defs>
+
+  <!-- CIELO NOCTURNO -->
+  <rect width="1200" height="600" fill="url(#nightSkyGradient)"/>
+
+  <!-- ESTRELLAS -->
+  <g fill="#ffffff">
+    <circle cx="80" cy="50" r="1.5" opacity="0.9"/>
+    <circle cx="150" cy="120" r="1" opacity="0.7"/>
+    <circle cx="230" cy="40" r="2" opacity="1"/>
+    <circle cx="320" cy="90" r="1.2" opacity="0.8"/>
+    <circle cx="410" cy="30" r="1.8" opacity="0.9"/>
+    <circle cx="500" cy="110" r="1" opacity="0.6"/>
+    <circle cx="580" cy="60" r="1.5" opacity="0.85"/>
+    <circle cx="670" cy="140" r="1.2" opacity="0.7"/>
+    <circle cx="760" cy="50" r="1.8" opacity="0.9"/>
+    <circle cx="850" cy="120" r="1" opacity="0.6"/>
+    <circle cx="940" cy="40" r="1.5" opacity="0.85"/>
+    <circle cx="1050" cy="180" r="1.2" opacity="0.7"/>
+    <circle cx="1120" cy="80" r="1.8" opacity="0.9"/>
+
+    <circle cx="60" cy="200" r="1" opacity="0.6"/>
+    <circle cx="180" cy="260" r="1.5" opacity="0.8"/>
+    <circle cx="290" cy="180" r="1.2" opacity="0.7"/>
+    <circle cx="370" cy="240" r="1.8" opacity="0.9"/>
+    <circle cx="470" cy="200" r="1" opacity="0.6"/>
+    <circle cx="550" cy="280" r="1.5" opacity="0.8"/>
+    <circle cx="640" cy="220" r="1.2" opacity="0.7"/>
+    <circle cx="730" cy="300" r="1.8" opacity="0.9"/>
+    <circle cx="820" cy="240" r="1" opacity="0.6"/>
+    <circle cx="910" cy="320" r="1.5" opacity="0.8"/>
+    <circle cx="1000" cy="260" r="1.2" opacity="0.7"/>
+    <circle cx="1090" cy="340" r="1.8" opacity="0.9"/>
+    <circle cx="1160" cy="200" r="1" opacity="0.6"/>
+
+    <circle cx="140" cy="360" r="1" opacity="0.5"/>
+    <circle cx="260" cy="380" r="1.3" opacity="0.7"/>
+    <circle cx="380" cy="350" r="1" opacity="0.5"/>
+    <circle cx="500" cy="390" r="1.5" opacity="0.8"/>
+    <circle cx="620" cy="370" r="1" opacity="0.5"/>
+    <circle cx="740" cy="395" r="1.3" opacity="0.7"/>
+    <circle cx="860" cy="360" r="1" opacity="0.5"/>
+    <circle cx="980" cy="390" r="1.5" opacity="0.8"/>
+    <circle cx="1100" cy="370" r="1" opacity="0.5"/>
+  </g>
+
+  <!-- LUNA LLENA -->
+  <circle cx="1020" cy="110" r="120" fill="url(#moonHalo)"/>
+  <circle cx="1020" cy="110" r="65" fill="url(#moonGradient)"/>
+
+  <!-- Cráteres de la luna -->
+  <g fill="#c0c0a8" opacity="0.5">
+    <circle cx="1000" cy="90" r="10"/>
+    <circle cx="1045" cy="115" r="7"/>
+    <circle cx="1010" cy="135" r="6"/>
+    <circle cx="1040" cy="85" r="5"/>
+    <circle cx="990" cy="120" r="4"/>
+  </g>
+
+  <!-- NUBES NOCTURNAS (tenues, apenas visibles) -->
+  <g fill="#2a3a5a" opacity="0.55">
+    <ellipse cx="200" cy="120" rx="70" ry="20"/>
+    <ellipse cx="250" cy="112" rx="50" ry="16"/>
+
+    <ellipse cx="500" cy="200" rx="65" ry="18"/>
+    <ellipse cx="545" cy="192" rx="45" ry="14"/>
+
+    <ellipse cx="750" cy="280" rx="55" ry="16"/>
+    <ellipse cx="790" cy="272" rx="40" ry="13"/>
+
+    <ellipse cx="120" cy="300" rx="55" ry="16"/>
+    <ellipse cx="160" cy="292" rx="40" ry="13"/>
+  </g>
+
+  <!-- CÉSPED NOCTURNO -->
+  <rect x="0" y="430" width="1200" height="170" fill="url(#nightGrassGradient)"/>
+
+  <!-- Matas de césped -->
+  <g stroke="#1e4a14" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6">
+    <path d="M 120 445 Q 125 425 130 445"/>
+    <path d="M 220 455 Q 225 435 230 455"/>
+    <path d="M 340 450 Q 345 430 350 450"/>
+    <path d="M 480 460 Q 485 440 490 460"/>
+    <path d="M 620 450 Q 625 430 630 450"/>
+    <path d="M 780 455 Q 785 435 790 455"/>
+    <path d="M 920 450 Q 925 430 930 450"/>
+    <path d="M 1060 460 Q 1065 440 1070 460"/>
+    <path d="M 1140 450 Q 1145 430 1150 450"/>
+  </g>
+
+  <!-- GIRASOL (versión nocturna, colores apagados) -->
+  <g transform="translate(180, 0)">
+    <ellipse cx="0" cy="560" rx="70" ry="12" fill="#000" opacity="0.3"/>
+
+    <!-- Tallo -->
+    <path d="M -5 560 Q -10 480 -2 400 Q 2 320 0 240"
+          stroke="#2a5a1e" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M -5 560 Q -10 480 -2 400 Q 2 320 0 240"
+          stroke="#3d7a28" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- Hojas -->
+    <g fill="#3d7a28" stroke="#1e4a14" stroke-width="3" stroke-linejoin="round">
+      <path d="M -2 480 Q -50 470 -60 440 Q -30 435 -2 460 Z"/>
+      <path d="M 2 400 Q 50 390 60 360 Q 30 355 2 380 Z"/>
+      <path d="M -2 320 Q -45 310 -55 285 Q -25 280 -2 300 Z"/>
+    </g>
+
+    <!-- Flor -->
+    <g transform="translate(0, 180)">
+      <!-- Pétalos traseros -->
+      <g fill="#6a5418" stroke="#3a2e0a" stroke-width="2">
+        <ellipse cx="0" cy="-75" rx="14" ry="30"/>
+        <ellipse cx="0" cy="75" rx="14" ry="30"/>
+        <ellipse cx="-75" cy="0" rx="30" ry="14"/>
+        <ellipse cx="75" cy="0" rx="30" ry="14"/>
+        <ellipse cx="-53" cy="-53" rx="14" ry="30" transform="rotate(-45 -53 -53)"/>
+        <ellipse cx="53" cy="-53" rx="14" ry="30" transform="rotate(45 53 -53)"/>
+        <ellipse cx="-53" cy="53" rx="14" ry="30" transform="rotate(45 -53 53)"/>
+        <ellipse cx="53" cy="53" rx="14" ry="30" transform="rotate(-45 53 53)"/>
+      </g>
+
+      <!-- Pétalos delanteros -->
+      <g fill="url(#petalGradientNight)" stroke="#3a2e0a" stroke-width="2">
+        <ellipse cx="0" cy="-75" rx="12" ry="28"/>
+        <ellipse cx="0" cy="75" rx="12" ry="28"/>
+        <ellipse cx="-75" cy="0" rx="28" ry="12"/>
+        <ellipse cx="75" cy="0" rx="28" ry="12"/>
+        <ellipse cx="-53" cy="-53" rx="12" ry="28" transform="rotate(-45 -53 -53)"/>
+        <ellipse cx="53" cy="-53" rx="12" ry="28" transform="rotate(45 53 -53)"/>
+        <ellipse cx="-53" cy="53" rx="12" ry="28" transform="rotate(45 -53 53)"/>
+        <ellipse cx="53" cy="53" rx="12" ry="28" transform="rotate(-45 53 53)"/>
+      </g>
+
+      <!-- Centro -->
+      <circle cx="0" cy="0" r="42" fill="url(#sunflowerCenterNight)" stroke="#0a0502" stroke-width="3"/>
+
+      <g fill="#0a0502" opacity="0.7">
+        <circle cx="-10" cy="-10" r="2"/>
+        <circle cx="0" cy="-15" r="2"/>
+        <circle cx="10" cy="-10" r="2"/>
+        <circle cx="-15" cy="0" r="2"/>
+        <circle cx="0" cy="0" r="2"/>
+        <circle cx="15" cy="0" r="2"/>
+        <circle cx="-10" cy="10" r="2"/>
+        <circle cx="0" cy="15" r="2"/>
+        <circle cx="10" cy="10" r="2"/>
+        <circle cx="-20" cy="-8" r="1.5"/>
+        <circle cx="20" cy="-8" r="1.5"/>
+        <circle cx="-8" cy="-20" r="1.5"/>
+        <circle cx="8" cy="-20" r="1.5"/>
+        <circle cx="-20" cy="8" r="1.5"/>
+        <circle cx="20" cy="8" r="1.5"/>
+        <circle cx="-8" cy="20" r="1.5"/>
+        <circle cx="8" cy="20" r="1.5"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Matas de césped sueltas -->
+  <g stroke="#1e4a14" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5">
+    <path d="M 540 490 Q 545 475 550 490"/>
+    <path d="M 780 485 Q 785 470 790 485"/>
+    <path d="M 620 500 Q 625 485 630 500"/>
+    <path d="M 720 495 Q 725 480 730 495"/>
+  </g>
+</svg>
