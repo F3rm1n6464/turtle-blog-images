@@ -1,0 +1,329 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220">
+  <defs>
+    <!-- Cielo nocturno -->
+    <linearGradient id="footerNightSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1428"/>
+      <stop offset="60%" stop-color="#142a4a"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
+    </linearGradient>
+
+    <!-- Césped nocturno -->
+    <linearGradient id="footerNightGrass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a5a20"/>
+      <stop offset="100%" stop-color="#14300e"/>
+    </linearGradient>
+
+    <!-- Luna -->
+    <radialGradient id="footerMoon" cx="45%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#f0f0e0"/>
+      <stop offset="100%" stop-color="#c8c8b0"/>
+    </radialGradient>
+
+    <radialGradient id="footerMoonHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8d0" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#fff8d0" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Centro del girasol -->
+    <radialGradient id="footerSunflowerCenter" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#3a2410"/>
+      <stop offset="70%" stop-color="#241408"/>
+      <stop offset="100%" stop-color="#140a04"/>
+    </radialGradient>
+
+    <!-- Pétalos del girasol -->
+    <linearGradient id="footerPetal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a88a30"/>
+      <stop offset="100%" stop-color="#6a5418"/>
+    </linearGradient>
+
+    <!-- Pelaje de Lucky (gata blanca) -->
+    <radialGradient id="luckyFur" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#f0f0f0"/>
+      <stop offset="100%" stop-color="#d8d8d8"/>
+    </radialGradient>
+
+    <!-- Pelaje de Tobi (salchicha marrón) -->
+    <radialGradient id="tobiFur" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#b07a4a"/>
+      <stop offset="70%" stop-color="#8a5a30"/>
+      <stop offset="100%" stop-color="#6a3f1e"/>
+    </radialGradient>
+
+    <!-- Caparazón de la tortuga -->
+    <radialGradient id="turtleShell" cx="45%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#b8e878"/>
+      <stop offset="60%" stop-color="#7ac142"/>
+      <stop offset="100%" stop-color="#4a8a28"/>
+    </radialGradient>
+
+    <!-- Piel de la tortuga -->
+    <radialGradient id="turtleSkin" cx="40%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#b8e078"/>
+      <stop offset="100%" stop-color="#8bc34a"/>
+    </radialGradient>
+
+    <!-- Plumas de la paloma -->
+    <radialGradient id="pigeonFeathers" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#a8b0b8"/>
+      <stop offset="70%" stop-color="#7a8590"/>
+      <stop offset="100%" stop-color="#5a6570"/>
+    </radialGradient>
+  </defs>
+
+  <!-- CIELO NOCTURNO -->
+  <rect width="1200" height="220" fill="url(#footerNightSky)"/>
+
+  <!-- ESTRELLAS -->
+  <g fill="#ffffff">
+    <circle cx="60" cy="30" r="1.2" opacity="0.9"/>
+    <circle cx="140" cy="60" r="1" opacity="0.7"/>
+    <circle cx="220" cy="25" r="1.5" opacity="0.9"/>
+    <circle cx="310" cy="70" r="1" opacity="0.7"/>
+    <circle cx="400" cy="20" r="1.3" opacity="0.85"/>
+    <circle cx="490" cy="55" r="1" opacity="0.6"/>
+    <circle cx="580" cy="30" r="1.4" opacity="0.85"/>
+    <circle cx="670" cy="65" r="1" opacity="0.7"/>
+    <circle cx="760" cy="25" r="1.5" opacity="0.9"/>
+    <circle cx="850" cy="60" r="1" opacity="0.6"/>
+    <circle cx="940" cy="35" r="1.3" opacity="0.85"/>
+    <circle cx="1030" cy="70" r="1" opacity="0.7"/>
+    <circle cx="1120" cy="25" r="1.5" opacity="0.9"/>
+    <circle cx="1160" cy="60" r="1" opacity="0.7"/>
+
+    <circle cx="100" cy="100" r="1" opacity="0.6"/>
+    <circle cx="260" cy="110" r="1.2" opacity="0.7"/>
+    <circle cx="420" cy="105" r="1" opacity="0.6"/>
+    <circle cx="560" cy="115" r="1.3" opacity="0.75"/>
+    <circle cx="700" cy="100" r="1" opacity="0.6"/>
+    <circle cx="840" cy="110" r="1.2" opacity="0.7"/>
+    <circle cx="980" cy="105" r="1" opacity="0.6"/>
+    <circle cx="1110" cy="115" r="1.3" opacity="0.75"/>
+  </g>
+
+  <!-- LUNA LLENA -->
+  <circle cx="1050" cy="55" r="60" fill="url(#footerMoonHalo)"/>
+  <circle cx="1050" cy="55" r="32" fill="url(#footerMoon)"/>
+
+  <!-- Cráteres -->
+  <g fill="#c0c0a8" opacity="0.5">
+    <circle cx="1040" cy="45" r="5"/>
+    <circle cx="1062" cy="58" r="3.5"/>
+    <circle cx="1045" cy="68" r="3"/>
+    <circle cx="1058" cy="42" r="2.5"/>
+    <circle cx="1034" cy="60" r="2"/>
+  </g>
+
+  <!-- CÉSPED -->
+  <rect x="0" y="150" width="1200" height="70" fill="url(#footerNightGrass)"/>
+
+  <!-- Matas de césped -->
+  <g stroke="#1e4a14" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.6">
+    <path d="M 80 160 Q 84 148 88 160"/>
+    <path d="M 180 165 Q 184 153 188 165"/>
+    <path d="M 500 162 Q 504 150 508 162"/>
+    <path d="M 620 165 Q 624 153 628 165"/>
+    <path d="M 780 160 Q 784 148 788 160"/>
+    <path d="M 920 165 Q 924 153 928 165"/>
+    <path d="M 1120 162 Q 1124 150 1128 162"/>
+  </g>
+
+  <!-- GIRASOL (versión nocturna reducida, lado izquierdo) -->
+  <g transform="translate(90, 150)">
+    <!-- Tallo -->
+    <path d="M 0 0 Q -3 -30 0 -70"
+          stroke="#2a5a1e" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+    <!-- Hoja -->
+    <path d="M 0 -30 Q 20 -35 25 -50 Q 10 -50 0 -40 Z"
+          fill="#3d7a28" stroke="#1e4a14" stroke-width="2" stroke-linejoin="round"/>
+
+    <!-- Flor (más pequeña que en el hero, para no competir con las caras) -->
+    <g transform="translate(0, -90)">
+      <!-- Pétalos -->
+      <g fill="url(#footerPetal)" stroke="#3a2e0a" stroke-width="1.5">
+        <ellipse cx="0" cy="-22" rx="5" ry="11"/>
+        <ellipse cx="0" cy="22" rx="5" ry="11"/>
+        <ellipse cx="-22" cy="0" rx="11" ry="5"/>
+        <ellipse cx="22" cy="0" rx="11" ry="5"/>
+        <ellipse cx="-15" cy="-15" rx="5" ry="11" transform="rotate(-45 -15 -15)"/>
+        <ellipse cx="15" cy="-15" rx="5" ry="11" transform="rotate(45 15 -15)"/>
+        <ellipse cx="-15" cy="15" rx="5" ry="11" transform="rotate(45 -15 15)"/>
+        <ellipse cx="15" cy="15" rx="5" ry="11" transform="rotate(-45 15 15)"/>
+      </g>
+
+      <!-- Centro -->
+      <circle cx="0" cy="0" r="13" fill="url(#footerSunflowerCenter)" stroke="#0a0502" stroke-width="2"/>
+
+      <g fill="#0a0502" opacity="0.7">
+        <circle cx="-4" cy="-4" r="1"/>
+        <circle cx="0" cy="-5" r="1"/>
+        <circle cx="4" cy="-4" r="1"/>
+        <circle cx="-5" cy="0" r="1"/>
+        <circle cx="0" cy="0" r="1"/>
+        <circle cx="5" cy="0" r="1"/>
+        <circle cx="-4" cy="4" r="1"/>
+        <circle cx="0" cy="5" r="1"/>
+        <circle cx="4" cy="4" r="1"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ===================================================== -->
+  <!-- ROSTROS DE LOS PERSONAJES                            -->
+  <!-- ===================================================== -->
+
+  <!-- LUCKY (gata blanca) -->
+  <g transform="translate(330, 130)">
+    <!-- Sombra -->
+    <ellipse cx="0" cy="48" rx="38" ry="8" fill="#000" opacity="0.35"/>
+
+    <!-- Orejas -->
+    <path d="M -32 -20 L -42 -50 L -15 -32 Z" fill="url(#luckyFur)" stroke="#b0b0b0" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 32 -20 L 42 -50 L 15 -32 Z" fill="url(#luckyFur)" stroke="#b0b0b0" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Interior orejas -->
+    <path d="M -30 -25 L -37 -44 L -20 -33 Z" fill="#f0c0c0" opacity="0.7"/>
+    <path d="M 30 -25 L 37 -44 L 20 -33 Z" fill="#f0c0c0" opacity="0.7"/>
+
+    <!-- Cabeza -->
+    <ellipse cx="0" cy="0" rx="40" ry="36" fill="url(#luckyFur)" stroke="#b0b0b0" stroke-width="3"/>
+
+    <!-- Ojos (estilo gato) -->
+    <ellipse cx="-14" cy="-6" rx="8" ry="10" fill="#ffffff" stroke="#7a8590" stroke-width="2"/>
+    <ellipse cx="14" cy="-6" rx="8" ry="10" fill="#ffffff" stroke="#7a8590" stroke-width="2"/>
+    <ellipse cx="-14" cy="-4" rx="4" ry="8" fill="#4a7a3a"/>
+    <ellipse cx="14" cy="-4" rx="4" ry="8" fill="#4a7a3a"/>
+    <ellipse cx="-14" cy="-4" rx="2" ry="6" fill="#1a1a1a"/>
+    <ellipse cx="14" cy="-4" rx="2" ry="6" fill="#1a1a1a"/>
+    <circle cx="-15" cy="-7" r="1.5" fill="#ffffff"/>
+    <circle cx="13" cy="-7" r="1.5" fill="#ffffff"/>
+
+    <!-- Nariz -->
+    <path d="M -4 8 L 4 8 L 0 13 Z" fill="#f0a0a0" stroke="#a06060" stroke-width="1.5" stroke-linejoin="round"/>
+
+    <!-- Boca (sonrisa suave) -->
+    <path d="M -8 16 Q 0 22 8 16" stroke="#7a8590" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- Bigotes -->
+    <g stroke="#c8c8c8" stroke-width="1.5" fill="none" stroke-linecap="round">
+      <path d="M -22 8 L -40 4"/>
+      <path d="M -22 12 L -40 12"/>
+      <path d="M 22 8 L 40 4"/>
+      <path d="M 22 12 L 40 12"/>
+    </g>
+  </g>
+
+  <!-- TOBI (perro salchicha) -->
+  <g transform="translate(530, 130)">
+    <!-- Sombra -->
+    <ellipse cx="0" cy="48" rx="42" ry="8" fill="#000" opacity="0.35"/>
+
+    <!-- Orejas caídas (dachshund) -->
+    <path d="M -32 -22 Q -48 -20 -46 5 Q -44 25 -34 22 Q -30 5 -32 -22 Z"
+          fill="url(#tobiFur)" stroke="#5a3214" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 32 -22 Q 48 -20 46 5 Q 44 25 34 22 Q 30 5 32 -22 Z"
+          fill="url(#tobiFur)" stroke="#5a3214" stroke-width="2.5" stroke-linejoin="round"/>
+
+    <!-- Cabeza alargada (dachshund) -->
+    <ellipse cx="0" cy="0" rx="36" ry="34" fill="url(#tobiFur)" stroke="#5a3214" stroke-width="3"/>
+
+    <!-- Hocico -->
+    <ellipse cx="0" cy="12" rx="22" ry="18" fill="#c89060" stroke="#5a3214" stroke-width="2.5"/>
+
+    <!-- Ojos -->
+    <ellipse cx="-13" cy="-6" rx="7" ry="8" fill="#ffffff" stroke="#5a3214" stroke-width="2"/>
+    <ellipse cx="13" cy="-6" rx="7" ry="8" fill="#ffffff" stroke="#5a3214" stroke-width="2"/>
+    <circle cx="-13" cy="-5" r="4.5" fill="#1a1a1a"/>
+    <circle cx="13" cy="-5" r="4.5" fill="#1a1a1a"/>
+    <circle cx="-14" cy="-7" r="1.5" fill="#ffffff"/>
+    <circle cx="12" cy="-7" r="1.5" fill="#ffffff"/>
+
+    <!-- Cejas (le da expresión) -->
+    <path d="M -20 -18 Q -13 -21 -6 -18" stroke="#3a2010" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 6 -18 Q 13 -21 20 -18" stroke="#3a2010" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Nariz -->
+    <ellipse cx="0" cy="6" rx="7" ry="5" fill="#1a1a1a"/>
+    <ellipse cx="-2" cy="5" rx="2" ry="1.5" fill="#4a4a4a"/>
+
+    <!-- Boca -->
+    <path d="M -6 16 Q 0 22 6 16" stroke="#3a2010" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- Lengua asomando ligeramente -->
+    <path d="M 0 20 Q -2 26 2 26 Q 5 25 3 20 Z" fill="#e07070" stroke="#a04040" stroke-width="1"/>
+  </g>
+
+  <!-- TORTUGA -->
+  <g transform="translate(740, 130)">
+    <!-- Sombra -->
+    <ellipse cx="0" cy="48" rx="46" ry="8" fill="#000" opacity="0.35"/>
+
+    <!-- Caparazón detrás de la cabeza (se ve el borde superior) -->
+    <ellipse cx="0" cy="-30" rx="58" ry="22" fill="url(#turtleShell)" stroke="#2d5a1a" stroke-width="3"/>
+
+    <!-- Cabeza -->
+    <ellipse cx="0" cy="0" rx="42" ry="38" fill="url(#turtleSkin)" stroke="#3d6b28" stroke-width="3"/>
+
+    <!-- Ojos grandes -->
+    <circle cx="-15" cy="-8" r="11" fill="#ffffff" stroke="#3d6b28" stroke-width="2.5"/>
+    <circle cx="15" cy="-8" r="11" fill="#ffffff" stroke="#3d6b28" stroke-width="2.5"/>
+    <circle cx="-17" cy="-8" r="5.5" fill="#1a1a1a"/>
+    <circle cx="13" cy="-8" r="5.5" fill="#1a1a1a"/>
+    <circle cx="-19" cy="-10" r="2" fill="#ffffff"/>
+    <circle cx="11" cy="-10" r="2" fill="#ffffff"/>
+
+    <!-- Cejas arqueadas -->
+    <path d="M -24 -22 Q -15 -26 -6 -22" stroke="#2d5a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 6 -22 Q 15 -26 24 -22" stroke="#2d5a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <!-- Nariz -->
+    <circle cx="-6" cy="6" r="2" fill="#2d5a1a"/>
+    <circle cx="6" cy="6" r="2" fill="#2d5a1a"/>
+
+    <!-- Boca -->
+    <path d="M -12 14 Q 0 24 12 14" stroke="#2d5a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- SEÑORITA PIES DESCALZOS (paloma) -->
+  <g transform="translate(960, 130)">
+    <!-- Sombra -->
+    <ellipse cx="0" cy="48" rx="38" ry="8" fill="#000" opacity="0.35"/>
+
+    <!-- Cabeza -->
+    <ellipse cx="0" cy="0" rx="38" ry="36" fill="url(#pigeonFeathers)" stroke="#3a4550" stroke-width="3"/>
+
+    <!-- Brillos de plumas en la cabeza -->
+    <ellipse cx="-10" cy="-15" rx="18" ry="10" fill="#b8c0c8" opacity="0.4"/>
+    <ellipse cx="15" cy="5" rx="12" ry="8" fill="#b8c0c8" opacity="0.3"/>
+
+    <!-- Ojos -->
+    <circle cx="-13" cy="-6" r="9" fill="#ffffff" stroke="#3a4550" stroke-width="2"/>
+    <circle cx="13" cy="-6" r="9" fill="#ffffff" stroke="#3a4550" stroke-width="2"/>
+    <circle cx="-13" cy="-5" r="4.5" fill="#1a1a1a"/>
+    <circle cx="13" cy="-5" r="4.5" fill="#1a1a1a"/>
+    <circle cx="-14" cy="-7" r="1.5" fill="#ffffff"/>
+    <circle cx="12" cy="-7" r="1.5" fill="#ffffff"/>
+
+    <!-- Anillo orbital alrededor del ojo (detalle de paloma) -->
+    <circle cx="-13" cy="-6" r="9" fill="none" stroke="#c88a4a" stroke-width="1" opacity="0.6"/>
+    <circle cx="13" cy="-6" r="9" fill="none" stroke="#c88a4a" stroke-width="1" opacity="0.6"/>
+
+    <!-- Pico -->
+    <path d="M -8 10 L 8 10 L 0 24 Z" fill="#d8a060" stroke="#8a5a20" stroke-width="2" stroke-linejoin="round"/>
+
+    <!-- Aro de plástico en la pata (se asoma debajo de la cabeza) -->
+    <ellipse cx="0" cy="42" rx="10" ry="4" fill="none" stroke="#58a6ff" stroke-width="3"/>
+  </g>
+
+  <!-- Matas de césped delante de los personajes -->
+  <g stroke="#1e4a14" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7">
+    <path d="M 240 195 Q 244 183 248 195"/>
+    <path d="M 430 200 Q 434 188 438 200"/>
+    <path d="M 640 195 Q 644 183 648 195"/>
+    <path d="M 850 200 Q 854 188 858 200"/>
+    <path d="M 1080 195 Q 1084 183 1088 195"/>
+  </g>
+
+</svg>
