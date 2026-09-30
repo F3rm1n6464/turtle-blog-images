@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <defs>
+    <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a8d8f0"/>
+      <stop offset="100%" stop-color="#d6ecf7"/>
+    </linearGradient>
+
+    <linearGradient id="grassGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7ec850"/>
+      <stop offset="100%" stop-color="#4a9a2c"/>
+    </linearGradient>
+
+    <radialGradient id="shellBase" cx="42%" cy="32%" r="75%">
+      <stop offset="0%" stop-color="#a8dd6a"/>
+      <stop offset="55%" stop-color="#6cb33f"/>
+      <stop offset="100%" stop-color="#3f7a22"/>
+    </radialGradient>
+
+    <radialGradient id="shellInner" cx="45%" cy="38%" r="65%">
+      <stop offset="0%" stop-color="#b8e878"/>
+      <stop offset="70%" stop-color="#7ac142"/>
+      <stop offset="100%" stop-color="#5a9a2e"/>
+    </radialGradient>
+
+    <radialGradient id="shellCenter" cx="48%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#c8ee88"/>
+      <stop offset="100%" stop-color="#8bc84a"/>
+    </radialGradient>
+
+    <radialGradient id="bodyGradient" cx="40%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#b8e078"/>
+      <stop offset="100%" stop-color="#8bc34a"/>
+    </radialGradient>
+
+    <radialGradient id="sunGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff3a0"/>
+      <stop offset="60%" stop-color="#ffd966"/>
+      <stop offset="100%" stop-color="#ffb347"/>
+    </radialGradient>
+
+    <radialGradient id="sunflowerCenter" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#5a3a1a"/>
+      <stop offset="70%" stop-color="#3a2410"/>
+      <stop offset="100%" stop-color="#2a1808"/>
+    </radialGradient>
+
+    <linearGradient id="petalGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe066"/>
+      <stop offset="100%" stop-color="#f5b800"/>
+    </linearGradient>
+  </defs>
+
+  <!-- CIELO -->
+  <rect width="1200" height="600" fill="url(#skyGradient)"/>
+
+  <!-- SOL -->
+  <circle cx="1020" cy="100" r="60" fill="url(#sunGradient)"/>
+  <circle cx="1020" cy="100" r="75" fill="none" stroke="#ffd966" stroke-width="3" opacity="0.5"/>
+  <circle cx="1020" cy="100" r="90" fill="none" stroke="#ffd966" stroke-width="2" opacity="0.25"/>
+
+  <!-- NUBES -->
+  <g fill="#ffffff" opacity="0.85">
+    <ellipse cx="120" cy="80" rx="70" ry="24"/>
+    <ellipse cx="170" cy="70" rx="55" ry="20"/>
+    <ellipse cx="80" cy="75" rx="45" ry="18"/>
+
+    <ellipse cx="380" cy="60" rx="55" ry="20"/>
+    <ellipse cx="420" cy="52" rx="40" ry="16"/>
+
+    <ellipse cx="700" cy="90" rx="65" ry="22"/>
+    <ellipse cx="750" cy="80" rx="50" ry="18"/>
+    <ellipse cx="660" cy="85" rx="40" ry="15"/>
+
+    <ellipse cx="900" cy="180" rx="55" ry="20"/>
+    <ellipse cx="945" cy="172" rx="42" ry="16"/>
+
+    <ellipse cx="200" cy="200" rx="60" ry="20"/>
+    <ellipse cx="250" cy="192" rx="45" ry="17"/>
+
+    <ellipse cx="560" cy="160" rx="50" ry="18"/>
+    <ellipse cx="600" cy="152" rx="38" ry="14"/>
+
+    <ellipse cx="850" cy="280" rx="55" ry="18"/>
+    <ellipse cx="895" cy="272" rx="40" ry="15"/>
+
+    <ellipse cx="100" cy="330" rx="50" ry="18"/>
+    <ellipse cx="145" cy="322" rx="38" ry="14"/>
+
+    <ellipse cx="450" cy="320" rx="55" ry="19"/>
+    <ellipse cx="495" cy="312" rx="40" ry="15"/>
+
+    <ellipse cx="720" cy="360" rx="48" ry="16"/>
+    <ellipse cx="760" cy="352" rx="36" ry="13"/>
+  </g>
+
+  <!-- CÉSPED -->
+  <rect x="0" y="430" width="1200" height="170" fill="url(#grassGradient)"/>
+
+  <g stroke="#3d7a28" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6">
+    <path d="M 120 445 Q 125 425 130 445"/>
+    <path d="M 220 455 Q 225 435 230 455"/>
+    <path d="M 340 450 Q 345 430 350 450"/>
+    <path d="M 480 460 Q 485 440 490 460"/>
+    <path d="M 900 450 Q 905 430 910 450"/>
+    <path d="M 1060 460 Q 1065 440 1070 460"/>
+    <path d="M 1140 450 Q 1145 430 1150 450"/>
+  </g>
+
+  <!-- GIRASOL -->
+  <g transform="translate(180, 0)">
+    <ellipse cx="0" cy="560" rx="70" ry="12" fill="#000" opacity="0.12"/>
+
+    <path d="M -5 560 Q -10 480 -2 400 Q 2 320 0 240"
+          stroke="#4a8a28" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M -5 560 Q -10 480 -2 400 Q 2 320 0 240"
+          stroke="#6cb33f" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+    <g fill="#6cb33f" stroke="#3d7a28" stroke-width="3" stroke-linejoin="round">
+      <path d="M -2 480 Q -50 470 -60 440 Q -30 435 -2 460 Z"/>
+      <path d="M 2 400 Q 50 390 60 360 Q 30 355 2 380 Z"/>
+      <path d="M -2 320 Q -45 310 -55 285 Q -25 280 -2 300 Z"/>
+    </g>
+
+    <g transform="translate(0, 180)">
+      <g fill="#f5b800" stroke="#c98f00" stroke-width="2">
+        <ellipse cx="0" cy="-75" rx="14" ry="30"/>
+        <ellipse cx="0" cy="75" rx="14" ry="30"/>
+        <ellipse cx="-75" cy="0" rx="30" ry="14"/>
+        <ellipse cx="75" cy="0" rx="30" ry="14"/>
+        <ellipse cx="-53" cy="-53" rx="14" ry="30" transform="rotate(-45 -53 -53)"/>
+        <ellipse cx="53" cy="-53" rx="14" ry="30" transform="rotate(45 53 -53)"/>
+        <ellipse cx="-53" cy="53" rx="14" ry="30" transform="rotate(45 -53 53)"/>
+        <ellipse cx="53" cy="53" rx="14" ry="30" transform="rotate(-45 53 53)"/>
+      </g>
+
+      <g fill="url(#petalGradient)" stroke="#c98f00" stroke-width="2">
+        <ellipse cx="0" cy="-75" rx="12" ry="28"/>
+        <ellipse cx="0" cy="75" rx="12" ry="28"/>
+        <ellipse cx="-75" cy="0" rx="28" ry="12"/>
+        <ellipse cx="75" cy="0" rx="28" ry="12"/>
+        <ellipse cx="-53" cy="-53" rx="12" ry="28" transform="rotate(-45 -53 -53)"/>
+        <ellipse cx="53" cy="-53" rx="12" ry="28" transform="rotate(45 53 -53)"/>
+        <ellipse cx="-53" cy="53" rx="12" ry="28" transform="rotate(45 -53 53)"/>
+        <ellipse cx="53" cy="53" rx="12" ry="28" transform="rotate(-45 53 53)"/>
+      </g>
+
+      <circle cx="0" cy="0" r="42" fill="url(#sunflowerCenter)" stroke="#1a0d04" stroke-width="3"/>
+
+      <g fill="#1a0d04" opacity="0.6">
+        <circle cx="-10" cy="-10" r="2"/>
+        <circle cx="0" cy="-15" r="2"/>
+        <circle cx="10" cy="-10" r="2"/>
+        <circle cx="-15" cy="0" r="2"/>
+        <circle cx="0" cy="0" r="2"/>
+        <circle cx="15" cy="0" r="2"/>
+        <circle cx="-10" cy="10" r="2"/>
+        <circle cx="0" cy="15" r="2"/>
+        <circle cx="10" cy="10" r="2"/>
+        <circle cx="-20" cy="-8" r="1.5"/>
+        <circle cx="20" cy="-8" r="1.5"/>
+        <circle cx="-8" cy="-20" r="1.5"/>
+        <circle cx="8" cy="-20" r="1.5"/>
+        <circle cx="-20" cy="8" r="1.5"/>
+        <circle cx="20" cy="8" r="1.5"/>
+        <circle cx="-8" cy="20" r="1.5"/>
+        <circle cx="8" cy="20" r="1.5"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- TORTUGA -->
+  <g transform="translate(680, 440)">
+    <ellipse cx="0" cy="55" rx="150" ry="16" fill="#000" opacity="0.18"/>
+
+    <ellipse cx="-90" cy="40" rx="28" ry="20" fill="#8bc34a" stroke="#3d6b28" stroke-width="4"/>
+    <ellipse cx="90" cy="40" rx="28" ry="20" fill="#8bc34a" stroke="#3d6b28" stroke-width="4"/>
+
+    <ellipse cx="-65" cy="48" rx="26" ry="18" fill="#9bd45c" stroke="#3d6b28" stroke-width="4"/>
+    <ellipse cx="65" cy="48" rx="26" ry="18" fill="#9bd45c" stroke="#3d6b28" stroke-width="4"/>
+
+    <path d="M 138 25 Q 165 30 160 42 Q 150 46 138 38 Z"
+          fill="#8bc34a" stroke="#3d6b28" stroke-width="4" stroke-linejoin="round"/>
+
+    <ellipse cx="0" cy="25" rx="125" ry="42" fill="url(#bodyGradient)" stroke="#3d6b28" stroke-width="4"/>
+
+    <!-- CAPARAZÓN: capas concéntricas, sin geometría -->
+    <ellipse cx="0" cy="5" rx="130" ry="72" fill="url(#shellBase)" stroke="#2d5a1a" stroke-width="5"/>
+
+    <!-- Capa intermedia -->
+    <ellipse cx="0" cy="5" rx="100" ry="52" fill="url(#shellInner)" opacity="0.95"/>
+
+    <!-- Capa central -->
+    <ellipse cx="0" cy="2" rx="65" ry="32" fill="url(#shellCenter)" opacity="0.95"/>
+
+    <!-- Reflejo suave superior -->
+    <ellipse cx="-35" cy="-32" rx="42" ry="14" fill="#ffffff" opacity="0.22"/>
+
+    <!-- Reflejo suave secundario -->
+    <ellipse cx="-55" cy="-10" rx="22" ry="8" fill="#ffffff" opacity="0.12"/>
+
+    <!-- Sombra inferior interna (da volumen) -->
+    <ellipse cx="15" cy="42" rx="70" ry="16" fill="#2d5a1a" opacity="0.18"/>
+
+    <!-- Cabeza -->
+    <g transform="translate(-145, 15)">
+      <ellipse cx="20" cy="5" rx="30" ry="28" fill="#8bc34a" stroke="#3d6b28" stroke-width="4"/>
+      <ellipse cx="0" cy="0" rx="42" ry="38" fill="#9bd45c" stroke="#3d6b28" stroke-width="4"/>
+
+      <circle cx="-10" cy="-8" r="12" fill="#ffffff" stroke="#3d6b28" stroke-width="2.5"/>
+      <circle cx="-12" cy="-8" r="6" fill="#1a1a1a"/>
+      <circle cx="-14" cy="-10" r="2" fill="#ffffff"/>
+
+      <path d="M -22 -22 Q -10 -28 4 -22" stroke="#2d5a1a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+      <path d="M -12 14 Q -2 22 10 12" stroke="#2d5a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <circle cx="-18" cy="2" r="2.5" fill="#2d5a1a"/>
+    </g>
+  </g>
+
+  <g stroke="#3d7a28" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7">
+    <path d="M 540 490 Q 545 475 550 490"/>
+    <path d="M 780 485 Q 785 470 790 485"/>
+    <path d="M 620 500 Q 625 485 630 500"/>
+    <path d="M 720 495 Q 725 480 730 495"/>
+  </g>
+</svg>
